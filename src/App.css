@@ -11,3 +11,10 @@
     height: 400px;
     background: url(./assets/images/image.jpg) no-repeat center/contain;
 }
+
+@media (min-resolution: 2dppx) {
+    .bg {
+        background: url(./assets/images/image@2x.jpeg) no-repeat center/contain;
+    }
+
+}
